@@ -32,7 +32,7 @@ public class DrawingCanves extends Canvas{
 		// TODO Auto-generated method stub
 		
 //		canvas.setSize(350, 550);
-		canvas.setBounds(5, 50, 540, 470);
+		canvas.setBounds(0, 50, 550, 478);
 		canvas.setBackground(Color.GRAY);
 		//frame.getContentPane().add(canvas);
 		

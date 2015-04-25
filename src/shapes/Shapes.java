@@ -1,5 +1,6 @@
 package shapes;
 
+import java.awt.Color;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -26,7 +27,7 @@ public class Shapes {
 
 	public void setupInterface(){
 		//Create and set up the window.
-		frame = new JFrame("Lets make shapes my nigga");
+		frame = new JFrame("Lets make shapes!!");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(550, 550);
 
@@ -163,7 +164,7 @@ public class Shapes {
 				}
 			}
 		});
-		
+		panel.setBackground(Color.GREEN);
 		frame.getContentPane().add(panel);
 		//		frame.getContentPane().add(panel2);
 	}
